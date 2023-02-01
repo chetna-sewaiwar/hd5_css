@@ -1,0 +1,97 @@
+body{
+    background-color: yellow;
+}
+
+.new{
+    text-align: center;
+    font-size: 2.5em;
+   
+}
+.center{
+    margin-left: 530px;
+}
+.box1{
+    width:100px;
+    height:100px;
+    background-color: yellowgreen;
+    margin:20px 0;
+    transition:width 2s;
+   
+}
+.box1:hover{
+    cursor: pointer;
+    width:300px;
+    
+}
+.box2{
+    width:100px;
+    height:100px;
+    background-color: yellowgreen;
+    margin:20px 0;
+    transition: width 2s, height 4s;
+}
+.box2:hover{
+    cursor: pointer;
+    width:300px;
+    height:300px;
+}
+.box3{
+    width:100px;
+    height:100px;
+    background-color: yellowgreen;
+    margin:20px 0;
+    transition: width 2s;
+    transition-timing-function: cubic-bezier(0.35, 0.53, 0.84, 0.59);
+}
+.box3:hover{
+    cursor: pointer;
+    width:300px;
+}
+.box4{
+    width:100px;
+    height:100px;
+    background-color: yellowgreen;
+    margin:20px 0;
+    transition: width 2s;
+    transition-timing-function: ease-in-out;
+}
+.box4:hover{
+    cursor: pointer;
+    width:300px;
+}
+.box5{
+    width:100px;
+    height:100px;
+    background-color: yellowgreen;
+    margin:20px 0;
+    transition: width 2s;
+    transition-timing-function: cubic-bezier(0, 0.98, 0.55, 0.31);
+}
+.box5:hover{
+    cursor: pointer;
+    width:300px;
+}
+.box6{
+    width:100px;
+    height:100px;
+    background-color: yellowgreen;
+    margin:20px 0;
+    transition: width 2s;
+    transition-timing-function: ease-out;
+}
+.box6:hover{
+    cursor: pointer;
+    width:300px;
+}
+.box7{
+    width:100px;
+    height:100px;
+    background-color: yellowgreen;
+    margin:20px 0;
+    transition: width 2s;
+    transition-timing-function: ease-in;
+}
+.box7:hover{
+    cursor: pointer;
+    width:300px;
+}
